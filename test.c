@@ -35,3 +35,24 @@ int func(char *str, const char *substr)
       }while(p2);
   return i;
 }
+
+int func2(char *str, const char *substr)
+{
+	char *strend, *p, *p2;
+	int sublen, n = 1;
+	if(!str || !substr)
+		return -1;
+	strend = strstr(str, substr);
+	if (!strend)
+		return 0;
+	sublen = strlen(substr);
+	p = strend + sublen;
+	while (p2 = strstr(p, substr)) {
+		n++;
+		strncpy(strend, p, p2 - p);
+		strend += p2 - p;
+		p = p2 + sublen;
+	}
+	strcpy(strend, p);
+	return n;
+}
