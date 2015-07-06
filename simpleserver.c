@@ -9,7 +9,7 @@
 
 #define MAXBYTES 1024
 #define MAXCLIENTS 100
-#define MAXPATH 10000
+#define MAXPATH 100000
 #define PORT 8080
 
 char root[]="/tmp/";
