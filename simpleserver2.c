@@ -16,15 +16,15 @@ void respond(int sock_fd) {
 	char path[MAXPATH] = "";
 	char path_buf[MAXPATH], data_buf[MAXBYTES];
 	int fd, bytes_read;
-	read(sock_fd, path_buf, MAXPATH);
+	recv(sock_fd, path_buf, MAXPATH, 0);
 	strcat(strcat(path, root), path_buf);
 	if((fd = open(path, O_RDONLY)) != -1) {
 		while(bytes_read = read(fd, data_buf, MAXBYTES))
-			write(sock_fd, data_buf, bytes_read);
+			send(sock_fd, data_buf, bytes_read, 0);
 		close(fd);
 	}
 	else
-		write(sock_fd, "error 404: not found!\n", 22);
+		send(sock_fd, "error 404: not found!\n", 22, 0);
 }
 
 int main()
