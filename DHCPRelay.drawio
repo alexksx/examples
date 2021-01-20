@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-01-20T10:16:42.665Z" agent="5.0 (X11)" etag="Q5DQvfdHG3KX9dr8fRlx" version="14.2.5" type="github">
+<mxfile host="app.diagrams.net" modified="2021-01-20T10:50:01.391Z" agent="5.0 (X11)" etag="Jxe3f3FbOMP91weaw7ij" version="14.2.5" type="github">
   <diagram id="TX5AygsmMYn5Sqxo0yGN" name="Page-1">
-    <mxGraphModel dx="716" dy="1583" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="716" dy="483" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -10,11 +10,6 @@
             <Array as="points">
               <mxPoint x="400" y="35" />
             </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="Aw4snWHt7EFA5zKAU956-4" value="0.0.0.0" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=14;" vertex="1" connectable="0" parent="Aw4snWHt7EFA5zKAU956-2">
-          <mxGeometry x="-0.0769" relative="1" as="geometry">
-            <mxPoint x="-70" y="-40" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="Aw4snWHt7EFA5zKAU956-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Aw4snWHt7EFA5zKAU956-1" target="Aw4snWHt7EFA5zKAU956-7">
@@ -48,6 +43,15 @@
         <mxCell id="Aw4snWHt7EFA5zKAU956-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontSize=14;" edge="1" parent="1" source="Aw4snWHt7EFA5zKAU956-15" target="Aw4snWHt7EFA5zKAU956-8">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="Aw4snWHt7EFA5zKAU956-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Aw4snWHt7EFA5zKAU956-15" target="Aw4snWHt7EFA5zKAU956-40">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="370" y="460" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="400" y="470" />
+              <mxPoint x="225" y="470" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="Aw4snWHt7EFA5zKAU956-15" value="trusted?" style="rhombus;whiteSpace=wrap;html=1;labelBackgroundColor=#ffffff;fontSize=14;" vertex="1" parent="1">
           <mxGeometry x="350" y="110" width="100" height="50" as="geometry" />
         </mxCell>
@@ -57,17 +61,16 @@
         <mxCell id="Aw4snWHt7EFA5zKAU956-21" value="N" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=14;labelBackgroundColor=#ffffff;" vertex="1" parent="1">
           <mxGeometry x="310" y="125" width="30" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="Aw4snWHt7EFA5zKAU956-22" value="send to the DHCP servers in the &lt;b&gt;pool&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=#ffffff;fontSize=14;" vertex="1" parent="1">
-          <mxGeometry x="65" y="340" width="130" height="50" as="geometry" />
-        </mxCell>
         <mxCell id="Aw4snWHt7EFA5zKAU956-24" value="Y" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=14;labelBackgroundColor=#ffffff;" vertex="1" parent="1">
           <mxGeometry x="120" y="180" width="20" height="20" as="geometry" />
         </mxCell>
         <mxCell id="Aw4snWHt7EFA5zKAU956-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=14;" edge="1" parent="1" source="Aw4snWHt7EFA5zKAU956-25" target="Aw4snWHt7EFA5zKAU956-26">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Aw4snWHt7EFA5zKAU956-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=14;" edge="1" parent="1" source="Aw4snWHt7EFA5zKAU956-25" target="Aw4snWHt7EFA5zKAU956-22">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="Aw4snWHt7EFA5zKAU956-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=14;" edge="1" parent="1" source="Aw4snWHt7EFA5zKAU956-25" target="Aw4snWHt7EFA5zKAU956-36">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="130" y="340" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="Aw4snWHt7EFA5zKAU956-25" value="pool has classes?" style="rhombus;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontSize=14;" vertex="1" parent="1">
           <mxGeometry x="75" y="220" width="110" height="70" as="geometry" />
@@ -75,9 +78,9 @@
         <mxCell id="Aw4snWHt7EFA5zKAU956-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontSize=14;" edge="1" parent="1" source="Aw4snWHt7EFA5zKAU956-26" target="Aw4snWHt7EFA5zKAU956-8">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Aw4snWHt7EFA5zKAU956-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Aw4snWHt7EFA5zKAU956-26" target="Aw4snWHt7EFA5zKAU956-35">
+        <mxCell id="Aw4snWHt7EFA5zKAU956-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Aw4snWHt7EFA5zKAU956-26" target="Aw4snWHt7EFA5zKAU956-37">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="260" y="360" as="targetPoint" />
+            <mxPoint x="305" y="340" as="targetPoint" />
             <Array as="points" />
           </mxGeometry>
         </mxCell>
@@ -96,8 +99,33 @@
         <mxCell id="Aw4snWHt7EFA5zKAU956-34" value="Y" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=14;labelBackgroundColor=#ffffff;" vertex="1" parent="1">
           <mxGeometry x="295" y="310" width="20" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="Aw4snWHt7EFA5zKAU956-35" value="send to the DHCP servers in the &lt;b&gt;class&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=#ffffff;fontSize=14;" vertex="1" parent="1">
-          <mxGeometry x="236.25" y="340" width="137.5" height="50" as="geometry" />
+        <mxCell id="Aw4snWHt7EFA5zKAU956-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=14;" edge="1" parent="1" source="Aw4snWHt7EFA5zKAU956-36" target="Aw4snWHt7EFA5zKAU956-40">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="130" y="470" />
+              <mxPoint x="225" y="470" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Aw4snWHt7EFA5zKAU956-36" value="dhcp_servers = &lt;b&gt;pool&lt;/b&gt;.servers" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="67.5" y="360" width="125" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Aw4snWHt7EFA5zKAU956-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=14;" edge="1" parent="1" source="Aw4snWHt7EFA5zKAU956-37" target="Aw4snWHt7EFA5zKAU956-40">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="305" y="470" />
+              <mxPoint x="225" y="470" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Aw4snWHt7EFA5zKAU956-37" value="dhcp_servers = &lt;b&gt;class&lt;/b&gt;.servers" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="242.5" y="360" width="125" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Aw4snWHt7EFA5zKAU956-40" value="policy" style="rhombus;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="185" y="510" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Aw4snWHt7EFA5zKAU956-44" value="Y" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=14;labelBackgroundColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="390" y="180" width="20" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
